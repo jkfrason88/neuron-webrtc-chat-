@@ -1,0 +1,37 @@
+.Login {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+.login-container {
+	border-radius: 5px;
+	width: 100%;
+	max-width: 400px;
+	box-shadow: 0 5px 10px 2px rgba(34, 60, 80, 0.2);
+	box-sizing: border-box;
+	padding: 16px;
+	background-color: white;
+}
+
+.login-error {
+	color: #FDB196;
+}
+
+.login-info-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.info-connected{
+}
+
+.login-container > button{
+	margin: 8px 0;
+}
+
+.login-container > input[type=text] {
+	margin: 8px 0;
+}

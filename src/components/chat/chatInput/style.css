@@ -1,0 +1,25 @@
+.AutoTextArea{
+	max-width: 100%;
+	margin: 5px;
+}
+
+.text-area-container {
+	display: flex;
+	flex-direction: row;
+	height: auto;
+}
+
+.text-area-container > button {
+	align-self: flex-end;
+	width: auto;
+}
+
+.auto-text-area {
+	margin-right: 5px;
+	height: 100%;
+	resize: none;
+}
+
+.auto-text-area:focus {
+	outline: none;
+}

@@ -1,0 +1,30 @@
+.ChatHistory{
+	height: 100%;
+	max-width: 100%;
+	overflow-y: auto;
+	margin: 5px;
+}
+
+.chat-history-container {
+	height: 100px;
+	min-height: 100%;
+	width: 100%;
+	overflow-y: auto;
+}
+
+.info-container {
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+}
+
+
+.info-container > .user {
+	color: dodgerblue;
+	font-weight: bold;
+}
+
+.info-container > .time {
+	color: gray;
+	margin-left: 5px;
+}
